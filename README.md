@@ -41,3 +41,9 @@ BTCHelper::convertMicroBitsToBTC(1); // 0.000001
 BTCHelper::validBitcoinAddress("1Af3EHHrbYRwaj4dcbKKcBxYxc6Z8j7xMZ"); // TRUE
 BTCHelper::validBitcoinAddress("POO"); // FALSE
 ```
+
+
+If this package helped you please consider sending a tip to this address: 
+**1Af3EHHrbYRwaj4dcbKKcBxYxc6Z8j7xMZ**
+
+![](http://btcaddress.info/1Af3EHHrbYRwaj4dcbKKcBxYxc6Z8j7xMZ/200)
