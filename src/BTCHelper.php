@@ -20,22 +20,22 @@ class BTCHelper {
 
   public static function convertBTCToMilliBits($btc)
   {
-      return Decimal::mul($btc, self::$millibit_quotient, FALSE, FALSE);
+      return Decimal::mul($btc, self::$millibit_quotient);
   }
 
   public static function convertMilliBitsToBTC($btc)
   {
-      return Decimal::div($btc, self::$millibit_quotient, FALSE, FALSE);
+      return Decimal::div($btc, self::$millibit_quotient);
   }
 
   public static function convertBTCToMicroBits($btc)
   {
-      return Decimal::mul($btc, self::$microbit_quotient, FALSE, FALSE);
+      return Decimal::mul($btc, self::$microbit_quotient);
   }
 
   public static function convertMicroBitsToBTC($btc)
   {
-      return Decimal::div($btc, self::$microbit_quotient, FALSE, FALSE);
+      return Decimal::div($btc, self::$microbit_quotient);
   }
 
   public static function format($value)
