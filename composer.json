@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "jaycodesign/btchelper": "dev-master"
+        "jaycodesign/decimal": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "4.0.*"
