@@ -21,7 +21,13 @@ class BTCHelperTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testAssertExpectingInteger()
 	{
-		BTCHelper::formatBTC(0.34);
+		BTCHelper::format(0.34);
+	}
+
+	public function testFormat()
+	{
+		$result = BTCHelper::format(303490);
+		$this->assertEquals("0.0030349", $result);
 	}
 
 	public function testconvertToSatoshiFromBTC()

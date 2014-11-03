@@ -38,7 +38,7 @@ class BTCHelper {
       return Decimal::div($btc, self::$microbit_quotient, FALSE, FALSE);
   }
 
-  public static function formatBTC($value)
+  public static function format($value)
   {
       if (floor( $value ) != $value)
       {
