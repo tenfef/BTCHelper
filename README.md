@@ -43,6 +43,7 @@ BTCHelper::validBitcoinAddress("POO"); // FALSE
 ```
 
 
-If this package helped you please consider sending a tip to this address: **1Af3EHHrbYRwaj4dcbKKcBxYxc6Z8j7xMZ**
+If this package helped you please consider sending a tip to this address: 
+**1Af3EHHrbYRwaj4dcbKKcBxYxc6Z8j7xMZ**
 
 ![](http://btcaddress.info/1Af3EHHrbYRwaj4dcbKKcBxYxc6Z8j7xMZ/200)
