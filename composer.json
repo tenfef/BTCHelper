@@ -1,0 +1,23 @@
+{
+    "name": "JaycoDesign/BTCHelper",
+    "description": "Btc Helper is a class with some helper methods for bitcoin",
+    "license": "MIT",
+    "keywords": ["btc", "bitcoin"],
+    "authors": [
+        {
+            "name": "Jordan Clist",
+            "email": "jordan@jaycodesign.co.nz"
+        }
+    ],
+    "require": {
+        "jaycodesign/decimal": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JaycoDesign\\BTCHelper\\": "src"
+        }
+    }
+}
