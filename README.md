@@ -7,7 +7,7 @@ Btc Helper is a class with some helper methods for bitcoin
 
 Simply add a dependency to your project's `composer.json` file if you use [Composer](http://getcomposer.org/) to manage the dependencies of your project.
 
-Here is a minimal example of a `composer.json` file that just defines a dependency on Money:
+Here is a minimal example of a `composer.json` file that just defines a dependency on BTCHelper:
 
     {
         "require": {
